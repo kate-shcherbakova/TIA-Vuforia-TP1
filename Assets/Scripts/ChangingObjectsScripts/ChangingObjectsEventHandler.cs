@@ -32,7 +32,7 @@ public class ChangingObjectsEventHandler : DefaultObserverEventHandler
         // Enable next object
         objectsToDisplay[currentIndex].SetActive(true);
 
-        // index for the next objext
+        // index for the next object
         currentIndex = (currentIndex + 1) % objectsToDisplay.Length;
     }
 }
